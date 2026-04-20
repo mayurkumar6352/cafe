@@ -8,6 +8,7 @@ export interface MenuItem {
   tags: string[]
   popular?: boolean
   calories?: number
+  customizations?: string
 }
 
 export interface CartItem extends MenuItem {
